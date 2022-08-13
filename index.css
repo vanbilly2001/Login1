@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman';
+    
+}
+
+.img{
+    width: 100%;
+    height: 100vh;
+}
+
+/*.content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.signup{
+    background-color: rgba(0, 0, 0, 0.314);
+    width: 750px;
+    height: 550px;
+    position: absolute;
+}
+
+.signin{
+    color: azure;
+    border-bottom: 5px solid #2c93de;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 20px 5px ;
+    
+}
+
+.text p{
+    color: azure;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+form{
+    
+    width: 500px;
+    height: 300px;
+    margin: 0 auto; /*Cho tất cả ra ở giữa */
+    margin-top: 45px;
+}
+
+form .taikhoan, form .matkhau{
+    /*width: 100%; 
+    height: 32px;;
+    margin-bottom: 20px;  
+    background: transparent; /* Backgroud xuyên thấu */
+    /*border: 2px solid ; /*Kẻ viền */
+    /*font-size: 13px;
+    font-weight: bold;
+    color:darkgrey;
+    border-radius: 10px; */
+    background: transparent;
+    width: 100%;
+    height: 35px;
+    border: 2px solid #8b8b8c;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #f8f9f9;
+}
+
+form .action{
+    display: flex;
+}
+
+form .action .check{
+    width: 15px;
+    height: 15px;
+    margin: 5px 0;
+}
+
+form .action label{
+    color: azure;
+    font-size: 18px;
+    padding: 3px 0 0 10px;
+}
+
+form .action .btn{
+    color: aliceblue;
+    margin: 5px 5px 0 230px;
+    border: 2px solid #8b8b8c;
+    padding: 10px 30px;
+    font-size: 20px;
+    transition: 1s;
+}
+form .action .btn a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/*form .action .btn{
+    width: 120x;
+    height: 20px;
+    margin-left: 50px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid rgb(247, 248, 248);
+    padding: 10px 30px;
+}*/
+
+
+
+form .action .btn:hover{
+    background-color: rgb(91, 93, 98);
+    transform: scale(1.1);
+}
+
+.signinmetho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signinmetho a{
+    color: azure;
+    text-decoration: none;
+}
+
+.signinfacebook, .signingoogle{
+    width: 200px;
+    height: 30px;
+    margin-top: 70px;
+    color: azure;
+    border: 1px solid #f8f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s; /* slow nó lại*/
+}
+
+.signinfacebook:hover{
+    background-color: #2665c3;
+    border: none;
+    transform: translateY(-5px)
+}
+
+.signingoogle:hover{
+    background-color: #ca3636;
+    border: none;
+    transform: translateY(-5px)
+}
